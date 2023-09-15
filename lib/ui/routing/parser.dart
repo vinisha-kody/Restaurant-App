@@ -50,6 +50,7 @@ class MainRouterInformationParser
           break;
         case Keys.reservationform:
           items.add(const NavigationStackItem.ReservationForm());
+          break;
         default:
           items.add(const NavigationStackItem.HomeMobile());
       }
@@ -76,7 +77,8 @@ class MainRouterInformationParser
             HomeMobile: () => '/${Keys.homemobile}',
             RestaurantDetailsMobile: (index) => '/${Keys.restaurantdetailsmobile}',
             ReservationMobile: () => '/${Keys.reservationmobile}',
-            ReservationTiming: () => '/${Keys.reservationtiming}'
+            ReservationTiming: () => '/${Keys.reservationtiming}',
+            ReservationForm: () => '/${Keys.reservationform}'
           );
     });
 

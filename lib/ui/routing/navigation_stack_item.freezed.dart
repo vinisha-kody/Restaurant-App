@@ -22,6 +22,7 @@ mixin _$NavigationStackItem {
     required TResult Function(int index) RestaurantDetailsMobile,
     required TResult Function() ReservationMobile,
     required TResult Function() ReservationTiming,
+    required TResult Function() ReservationForm,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -30,6 +31,7 @@ mixin _$NavigationStackItem {
     TResult? Function(int index)? RestaurantDetailsMobile,
     TResult? Function()? ReservationMobile,
     TResult? Function()? ReservationTiming,
+    TResult? Function()? ReservationForm,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -38,6 +40,7 @@ mixin _$NavigationStackItem {
     TResult Function(int index)? RestaurantDetailsMobile,
     TResult Function()? ReservationMobile,
     TResult Function()? ReservationTiming,
+    TResult Function()? ReservationForm,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -50,6 +53,8 @@ mixin _$NavigationStackItem {
         ReservationMobile,
     required TResult Function(NavigationStackItemReservationTiming value)
         ReservationTiming,
+    required TResult Function(NavigationStackItemReservationForm value)
+        ReservationForm,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -61,6 +66,8 @@ mixin _$NavigationStackItem {
         ReservationMobile,
     TResult? Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult? Function(NavigationStackItemReservationForm value)?
+        ReservationForm,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -72,6 +79,7 @@ mixin _$NavigationStackItem {
         ReservationMobile,
     TResult Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult Function(NavigationStackItemReservationForm value)? ReservationForm,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -150,6 +158,7 @@ class _$NavigationStackItemHomeMobile
     required TResult Function(int index) RestaurantDetailsMobile,
     required TResult Function() ReservationMobile,
     required TResult Function() ReservationTiming,
+    required TResult Function() ReservationForm,
   }) {
     return HomeMobile();
   }
@@ -161,6 +170,7 @@ class _$NavigationStackItemHomeMobile
     TResult? Function(int index)? RestaurantDetailsMobile,
     TResult? Function()? ReservationMobile,
     TResult? Function()? ReservationTiming,
+    TResult? Function()? ReservationForm,
   }) {
     return HomeMobile?.call();
   }
@@ -172,6 +182,7 @@ class _$NavigationStackItemHomeMobile
     TResult Function(int index)? RestaurantDetailsMobile,
     TResult Function()? ReservationMobile,
     TResult Function()? ReservationTiming,
+    TResult Function()? ReservationForm,
     required TResult orElse(),
   }) {
     if (HomeMobile != null) {
@@ -190,6 +201,8 @@ class _$NavigationStackItemHomeMobile
         ReservationMobile,
     required TResult Function(NavigationStackItemReservationTiming value)
         ReservationTiming,
+    required TResult Function(NavigationStackItemReservationForm value)
+        ReservationForm,
   }) {
     return HomeMobile(this);
   }
@@ -204,6 +217,8 @@ class _$NavigationStackItemHomeMobile
         ReservationMobile,
     TResult? Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult? Function(NavigationStackItemReservationForm value)?
+        ReservationForm,
   }) {
     return HomeMobile?.call(this);
   }
@@ -218,6 +233,7 @@ class _$NavigationStackItemHomeMobile
         ReservationMobile,
     TResult Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult Function(NavigationStackItemReservationForm value)? ReservationForm,
     required TResult orElse(),
   }) {
     if (HomeMobile != null) {
@@ -317,6 +333,7 @@ class _$NavigationStackItemRestaurantDetailsMobile
     required TResult Function(int index) RestaurantDetailsMobile,
     required TResult Function() ReservationMobile,
     required TResult Function() ReservationTiming,
+    required TResult Function() ReservationForm,
   }) {
     return RestaurantDetailsMobile(index);
   }
@@ -328,6 +345,7 @@ class _$NavigationStackItemRestaurantDetailsMobile
     TResult? Function(int index)? RestaurantDetailsMobile,
     TResult? Function()? ReservationMobile,
     TResult? Function()? ReservationTiming,
+    TResult? Function()? ReservationForm,
   }) {
     return RestaurantDetailsMobile?.call(index);
   }
@@ -339,6 +357,7 @@ class _$NavigationStackItemRestaurantDetailsMobile
     TResult Function(int index)? RestaurantDetailsMobile,
     TResult Function()? ReservationMobile,
     TResult Function()? ReservationTiming,
+    TResult Function()? ReservationForm,
     required TResult orElse(),
   }) {
     if (RestaurantDetailsMobile != null) {
@@ -357,6 +376,8 @@ class _$NavigationStackItemRestaurantDetailsMobile
         ReservationMobile,
     required TResult Function(NavigationStackItemReservationTiming value)
         ReservationTiming,
+    required TResult Function(NavigationStackItemReservationForm value)
+        ReservationForm,
   }) {
     return RestaurantDetailsMobile(this);
   }
@@ -371,6 +392,8 @@ class _$NavigationStackItemRestaurantDetailsMobile
         ReservationMobile,
     TResult? Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult? Function(NavigationStackItemReservationForm value)?
+        ReservationForm,
   }) {
     return RestaurantDetailsMobile?.call(this);
   }
@@ -385,6 +408,7 @@ class _$NavigationStackItemRestaurantDetailsMobile
         ReservationMobile,
     TResult Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult Function(NavigationStackItemReservationForm value)? ReservationForm,
     required TResult orElse(),
   }) {
     if (RestaurantDetailsMobile != null) {
@@ -462,6 +486,7 @@ class _$NavigationStackItemReservationMobile
     required TResult Function(int index) RestaurantDetailsMobile,
     required TResult Function() ReservationMobile,
     required TResult Function() ReservationTiming,
+    required TResult Function() ReservationForm,
   }) {
     return ReservationMobile();
   }
@@ -473,6 +498,7 @@ class _$NavigationStackItemReservationMobile
     TResult? Function(int index)? RestaurantDetailsMobile,
     TResult? Function()? ReservationMobile,
     TResult? Function()? ReservationTiming,
+    TResult? Function()? ReservationForm,
   }) {
     return ReservationMobile?.call();
   }
@@ -484,6 +510,7 @@ class _$NavigationStackItemReservationMobile
     TResult Function(int index)? RestaurantDetailsMobile,
     TResult Function()? ReservationMobile,
     TResult Function()? ReservationTiming,
+    TResult Function()? ReservationForm,
     required TResult orElse(),
   }) {
     if (ReservationMobile != null) {
@@ -502,6 +529,8 @@ class _$NavigationStackItemReservationMobile
         ReservationMobile,
     required TResult Function(NavigationStackItemReservationTiming value)
         ReservationTiming,
+    required TResult Function(NavigationStackItemReservationForm value)
+        ReservationForm,
   }) {
     return ReservationMobile(this);
   }
@@ -516,6 +545,8 @@ class _$NavigationStackItemReservationMobile
         ReservationMobile,
     TResult? Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult? Function(NavigationStackItemReservationForm value)?
+        ReservationForm,
   }) {
     return ReservationMobile?.call(this);
   }
@@ -530,6 +561,7 @@ class _$NavigationStackItemReservationMobile
         ReservationMobile,
     TResult Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult Function(NavigationStackItemReservationForm value)? ReservationForm,
     required TResult orElse(),
   }) {
     if (ReservationMobile != null) {
@@ -600,6 +632,7 @@ class _$NavigationStackItemReservationTiming
     required TResult Function(int index) RestaurantDetailsMobile,
     required TResult Function() ReservationMobile,
     required TResult Function() ReservationTiming,
+    required TResult Function() ReservationForm,
   }) {
     return ReservationTiming();
   }
@@ -611,6 +644,7 @@ class _$NavigationStackItemReservationTiming
     TResult? Function(int index)? RestaurantDetailsMobile,
     TResult? Function()? ReservationMobile,
     TResult? Function()? ReservationTiming,
+    TResult? Function()? ReservationForm,
   }) {
     return ReservationTiming?.call();
   }
@@ -622,6 +656,7 @@ class _$NavigationStackItemReservationTiming
     TResult Function(int index)? RestaurantDetailsMobile,
     TResult Function()? ReservationMobile,
     TResult Function()? ReservationTiming,
+    TResult Function()? ReservationForm,
     required TResult orElse(),
   }) {
     if (ReservationTiming != null) {
@@ -640,6 +675,8 @@ class _$NavigationStackItemReservationTiming
         ReservationMobile,
     required TResult Function(NavigationStackItemReservationTiming value)
         ReservationTiming,
+    required TResult Function(NavigationStackItemReservationForm value)
+        ReservationForm,
   }) {
     return ReservationTiming(this);
   }
@@ -654,6 +691,8 @@ class _$NavigationStackItemReservationTiming
         ReservationMobile,
     TResult? Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult? Function(NavigationStackItemReservationForm value)?
+        ReservationForm,
   }) {
     return ReservationTiming?.call(this);
   }
@@ -668,6 +707,7 @@ class _$NavigationStackItemReservationTiming
         ReservationMobile,
     TResult Function(NavigationStackItemReservationTiming value)?
         ReservationTiming,
+    TResult Function(NavigationStackItemReservationForm value)? ReservationForm,
     required TResult orElse(),
   }) {
     if (ReservationTiming != null) {
@@ -681,4 +721,150 @@ abstract class NavigationStackItemReservationTiming
     implements NavigationStackItem {
   const factory NavigationStackItemReservationTiming() =
       _$NavigationStackItemReservationTiming;
+}
+
+/// @nodoc
+abstract class _$$NavigationStackItemReservationFormCopyWith<$Res> {
+  factory _$$NavigationStackItemReservationFormCopyWith(
+          _$NavigationStackItemReservationForm value,
+          $Res Function(_$NavigationStackItemReservationForm) then) =
+      __$$NavigationStackItemReservationFormCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$NavigationStackItemReservationFormCopyWithImpl<$Res>
+    extends _$NavigationStackItemCopyWithImpl<$Res,
+        _$NavigationStackItemReservationForm>
+    implements _$$NavigationStackItemReservationFormCopyWith<$Res> {
+  __$$NavigationStackItemReservationFormCopyWithImpl(
+      _$NavigationStackItemReservationForm _value,
+      $Res Function(_$NavigationStackItemReservationForm) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$NavigationStackItemReservationForm
+    with DiagnosticableTreeMixin
+    implements NavigationStackItemReservationForm {
+  const _$NavigationStackItemReservationForm();
+
+  @override
+  String toString({DiagnosticLevel minLevel = DiagnosticLevel.info}) {
+    return 'NavigationStackItem.ReservationForm()';
+  }
+
+  @override
+  void debugFillProperties(DiagnosticPropertiesBuilder properties) {
+    super.debugFillProperties(properties);
+    properties.add(
+        DiagnosticsProperty('type', 'NavigationStackItem.ReservationForm'));
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$NavigationStackItemReservationForm);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() HomeMobile,
+    required TResult Function(int index) RestaurantDetailsMobile,
+    required TResult Function() ReservationMobile,
+    required TResult Function() ReservationTiming,
+    required TResult Function() ReservationForm,
+  }) {
+    return ReservationForm();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? HomeMobile,
+    TResult? Function(int index)? RestaurantDetailsMobile,
+    TResult? Function()? ReservationMobile,
+    TResult? Function()? ReservationTiming,
+    TResult? Function()? ReservationForm,
+  }) {
+    return ReservationForm?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? HomeMobile,
+    TResult Function(int index)? RestaurantDetailsMobile,
+    TResult Function()? ReservationMobile,
+    TResult Function()? ReservationTiming,
+    TResult Function()? ReservationForm,
+    required TResult orElse(),
+  }) {
+    if (ReservationForm != null) {
+      return ReservationForm();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(NavigationStackItemHomeMobile value) HomeMobile,
+    required TResult Function(NavigationStackItemRestaurantDetailsMobile value)
+        RestaurantDetailsMobile,
+    required TResult Function(NavigationStackItemReservationMobile value)
+        ReservationMobile,
+    required TResult Function(NavigationStackItemReservationTiming value)
+        ReservationTiming,
+    required TResult Function(NavigationStackItemReservationForm value)
+        ReservationForm,
+  }) {
+    return ReservationForm(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(NavigationStackItemHomeMobile value)? HomeMobile,
+    TResult? Function(NavigationStackItemRestaurantDetailsMobile value)?
+        RestaurantDetailsMobile,
+    TResult? Function(NavigationStackItemReservationMobile value)?
+        ReservationMobile,
+    TResult? Function(NavigationStackItemReservationTiming value)?
+        ReservationTiming,
+    TResult? Function(NavigationStackItemReservationForm value)?
+        ReservationForm,
+  }) {
+    return ReservationForm?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(NavigationStackItemHomeMobile value)? HomeMobile,
+    TResult Function(NavigationStackItemRestaurantDetailsMobile value)?
+        RestaurantDetailsMobile,
+    TResult Function(NavigationStackItemReservationMobile value)?
+        ReservationMobile,
+    TResult Function(NavigationStackItemReservationTiming value)?
+        ReservationTiming,
+    TResult Function(NavigationStackItemReservationForm value)? ReservationForm,
+    required TResult orElse(),
+  }) {
+    if (ReservationForm != null) {
+      return ReservationForm(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class NavigationStackItemReservationForm
+    implements NavigationStackItem {
+  const factory NavigationStackItemReservationForm() =
+      _$NavigationStackItemReservationForm;
 }
